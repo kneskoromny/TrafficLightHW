@@ -20,7 +20,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="08w-nZ-B1O">
                                 <rect key="frame" x="147" y="64" width="120" height="404"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKa-Af-dTk">
+                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKa-Af-dTk">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
@@ -28,7 +28,7 @@
                                             <constraint firstAttribute="height" constant="120" id="W7k-Oa-gIa"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hs-i5-Fed">
+                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hs-i5-Fed">
                                         <rect key="frame" x="0.0" y="142" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <constraints>
@@ -36,7 +36,7 @@
                                             <constraint firstAttribute="width" constant="120" id="ml6-CG-oHf"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jn1-AK-rxc">
+                                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jn1-AK-rxc">
                                         <rect key="frame" x="0.0" y="284" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                         <constraints>
