@@ -61,17 +61,26 @@
                                     <action selector="startButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="EBa-DI-cnN"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znf-ft-jri">
+                                <rect key="frame" x="164" y="678" width="86" height="41"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="08w-nZ-B1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0RF-JJ-iuh"/>
                             <constraint firstItem="08w-nZ-B1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="N0Q-QF-LOq"/>
+                            <constraint firstItem="eyA-Rl-Zrn" firstAttribute="top" secondItem="znf-ft-jri" secondAttribute="bottom" constant="36" id="RKY-AE-dIZ"/>
                             <constraint firstItem="eyA-Rl-Zrn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vph-fN-KM8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eyA-Rl-Zrn" secondAttribute="bottom" constant="60" id="i53-Q0-t4G"/>
+                            <constraint firstItem="znf-ft-jri" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ttM-hh-3eJ"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="actionHintLabel" destination="znf-ft-jri" id="ES8-cK-mSi"/>
                         <outlet property="greenLightView" destination="Jn1-AK-rxc" id="KfY-nf-90f"/>
                         <outlet property="redLightView" destination="uKa-Af-dTk" id="JB1-ma-Wkt"/>
                         <outlet property="startButton" destination="eyA-Rl-Zrn" id="q8j-o2-5qf"/>

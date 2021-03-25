@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var yellowLightView: UIView!
     @IBOutlet weak var greenLightView: UIView!
     @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var actionHintLabel: UILabel!
     
 //    MARK: - Private Properties
     private enum Lights {
@@ -38,26 +39,35 @@ class ViewController: UIViewController {
     @IBAction func startButtonPressed() {
         
         startButton.setTitle("NEXT!", for: .normal)
+        actionHintLabel.isHidden = false
         
         switch currentLight {
         case .redSignal:
             redLightView.alpha = 0.3
             yellowLightView.alpha = 1
             currentLight = .yellowSignal
+            actionHintLabel.text = "ready"
+            actionHintLabel.textColor = .yellow
             
         case .yellowSignal:
             yellowLightView.alpha = 0.3
             greenLightView.alpha = 1
             currentLight = .greenSignal
+            actionHintLabel.text = "go"
+            actionHintLabel.textColor = .green
             
         case .greenSignal:
             greenLightView.alpha = 0.3
             redLightView.alpha = 1
             currentLight = .redSignal
+            actionHintLabel.text = "stop"
+            actionHintLabel.textColor = .red
             
         default:
             redLightView.alpha = 1
             currentLight = .redSignal
+            actionHintLabel.text = "stop"
+            actionHintLabel.textColor = .red
             
         }
         
