@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="08w-nZ-B1O">
-                                <rect key="frame" x="147" y="64" width="120" height="404"/>
+                                <rect key="frame" x="147" y="94" width="120" height="404"/>
                                 <subviews>
                                     <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKa-Af-dTk">
                                         <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
@@ -45,6 +45,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyA-Rl-Zrn">
                                 <rect key="frame" x="57" y="755" width="300" height="47"/>
@@ -65,7 +66,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="08w-nZ-B1O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0RF-JJ-iuh"/>
-                            <constraint firstItem="08w-nZ-B1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="N0Q-QF-LOq"/>
+                            <constraint firstItem="08w-nZ-B1O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="N0Q-QF-LOq"/>
                             <constraint firstItem="eyA-Rl-Zrn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vph-fN-KM8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eyA-Rl-Zrn" secondAttribute="bottom" constant="60" id="i53-Q0-t4G"/>
                         </constraints>
