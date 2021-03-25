@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        sleep(2)
         redLightView.layer.cornerRadius = 60
         yellowLightView.layer.cornerRadius = 60
         greenLightView.layer.cornerRadius = 60
